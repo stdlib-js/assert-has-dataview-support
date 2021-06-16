@@ -53,7 +53,7 @@ tape( 'if `DataView` is supported, detection result is `true`', function test( t
 
 	mocked = proxyquire( './../lib/main.js', {
 		'./dataview.js': Mock,
-		'@stdlib/assert/is-dataview': isDataView
+		'@stdlib/assert-is-dataview': isDataView
 	});
 	t.strictEqual( mocked(), true, 'detection result is `true` (mocked)' );
 
