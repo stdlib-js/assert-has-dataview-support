@@ -31,6 +31,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import hasDataViewSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-dataview-support@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-has-dataview-support/tags). For example,
+
+```javascript
 import hasDataViewSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-dataview-support@v0.0.7-esm/index.mjs';
 ```
 
@@ -59,7 +64,7 @@ var bool = hasDataViewSupport();
 <body>
 <script type="module">
 
-import hasDataViewSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-dataview-support@v0.0.7-esm/index.mjs';
+import hasDataViewSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-dataview-support@esm/index.mjs';
 
 var bool = hasDataViewSupport();
 if ( bool ) {
