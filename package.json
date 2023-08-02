@@ -1,7 +1,7 @@
 {
   "name": "@stdlib/assert-has-dataview-support",
   "version": "0.0.7",
-  "description": "Detect native ArrayBuffer support.",
+  "description": "Detect native DataView support.",
   "license": "Apache-2.0",
   "author": {
     "name": "The Stdlib Authors",
@@ -14,7 +14,7 @@
     }
   ],
   "bin": {
-    "has-arraybuffer-support": "./bin/cli"
+    "has-dataview-support": "./bin/cli"
   },
   "main": "./lib",
   "directories": {
@@ -81,9 +81,13 @@
     "util",
     "detect",
     "feature",
-    "arraybuffer",
+    "dataview",
+    "data",
+    "view",
+    "endianness",
     "es2015",
     "es6",
+    "arraybuffer",
     "array",
     "buffer",
     "buf",
