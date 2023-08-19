@@ -24,72 +24,17 @@ limitations under the License.
 
 > Detect native [`DataView`][mdn-dataview] support.
 
-<section class="installation">
 
-## Installation
 
-```bash
-npm install @stdlib/assert-has-dataview-support
-```
 
-Alternatively,
 
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
--   To use as a general utility for the command line, install the corresponding [CLI package][cli-section] globally.
 
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
 
-</section>
 
-<section class="usage">
-
-## Usage
-
-```javascript
-var hasDataViewSupport = require( '@stdlib/assert-has-dataview-support' );
-```
-
-#### hasDataViewSupport()
-
-Detects if a runtime environment supports [`DataView`][mdn-dataview].
-
-```javascript
-var bool = hasDataViewSupport();
-// returns <boolean>
-```
-
-</section>
-
-<!-- /.usage -->
-
-<section class="examples">
-
-## Examples
-
-<!-- eslint no-undef: "error" -->
-
-```javascript
-var hasDataViewSupport = require( '@stdlib/assert-has-dataview-support' );
-
-var bool = hasDataViewSupport();
-if ( bool ) {
-    console.log( 'Environment has DataView support.' );
-} else {
-    console.log( 'Environment lacks DataView support.' );
-}
-```
-
-</section>
-
-<!-- /.examples -->
-
-* * *
 
 <section class="cli">
 
-## CLI
+
 
 <section class="installation">
 
@@ -107,7 +52,7 @@ npm install -g @stdlib/assert-has-dataview-support-cli
 
 <section class="usage">
 
-### Usage
+## Usage
 
 ```text
 Usage: has-dataview-support [options]
@@ -124,7 +69,7 @@ Options:
 
 <section class="examples">
 
-### Examples
+## Examples
 
 ```bash
 $ has-dataview-support
@@ -143,10 +88,9 @@ $ has-dataview-support
 
 <section class="related">
 
-* * *
-
 ## See Also
 
+-   <span class="package-name">[`@stdlib/assert-has-dataview-support`][@stdlib/assert-has-dataview-support]</span><span class="delimiter">: </span><span class="description">detect native DataView support.</span>
 -   <span class="package-name">[`@stdlib/assert-has-arraybuffer-support`][@stdlib/assert/has-arraybuffer-support]</span><span class="delimiter">: </span><span class="description">detect native ArrayBuffer support.</span>
 
 </section>
@@ -166,7 +110,7 @@ This package is part of [stdlib][stdlib], a standard library for JavaScript and 
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
-#### Community
+### Community
 
 [![Chat][chat-image]][chat-url]
 
@@ -189,8 +133,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <section class="links">
 
-[npm-image]: http://img.shields.io/npm/v/@stdlib/assert-has-dataview-support.svg
-[npm-url]: https://npmjs.org/package/@stdlib/assert-has-dataview-support
+[npm-image]: http://img.shields.io/npm/v/@stdlib/assert-has-dataview-support-cli.svg
+[npm-url]: https://npmjs.org/package/@stdlib/assert-has-dataview-support-cli
 
 [test-image]: https://github.com/stdlib-js/assert-has-dataview-support/actions/workflows/test.yml/badge.svg?branch=main
 [test-url]: https://github.com/stdlib-js/assert-has-dataview-support/actions/workflows/test.yml?query=branch:main
