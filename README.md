@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import hasDataViewSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-dataview-support@deno/mod.js';
+import hasDataViewSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-dataview-support@v0.2.0-deno/mod.js';
 ```
 
 #### hasDataViewSupport()
@@ -65,7 +65,7 @@ var bool = hasDataViewSupport();
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import hasDataViewSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-dataview-support@deno/mod.js';
+import hasDataViewSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-dataview-support@v0.2.0-deno/mod.js';
 
 var bool = hasDataViewSupport();
 if ( bool ) {
