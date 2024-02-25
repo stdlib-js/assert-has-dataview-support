@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import hasDataViewSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-dataview-support@esm/index.mjs';
+import hasDataViewSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-dataview-support@v0.2.1-esm/index.mjs';
 ```
 
 #### hasDataViewSupport()
@@ -70,7 +70,7 @@ var bool = hasDataViewSupport();
 <body>
 <script type="module">
 
-import hasDataViewSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-dataview-support@esm/index.mjs';
+import hasDataViewSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-dataview-support@v0.2.1-esm/index.mjs';
 
 var bool = hasDataViewSupport();
 if ( bool ) {
